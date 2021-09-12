@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/* font-family: 'Fredoka One', cursive; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #e5f6ff;
+}
+
+textarea {
+    color: #9c9c9c;
+    letter-spacing: 0.2rem;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+    padding: 2rem;
+    border: none;
+    outline: #e5f6ff;
+    resize: none;
+    width: 45rem;
+    height: 20rem;
+    border-radius: 15px;
+    background: #e5f6ff;
+    box-shadow: inset 12px 12px 24px #b9c7cf,
+            inset -12px -12px 24px #ffffff;
+}
+.a{
+    border-radius: 15px;
+    padding: 10rem;
+    background: linear-gradient(145deg, #f5ffff, #cedde6);
+    box-shadow:  38px 38px 64px #b7c5cc,
+             -30px -30px 74px #ffffff;
+
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Fredoka One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+p{
+    text-align: center;
+    margin-top: 1.5rem;
+    font-family: 'Fredoka One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+span{
+    font-size: 2rem;
+    color: #9c9c9c;
+}
+
+
+@media only screen and (max-width: 1080px) {
+  
+  textarea {
+    color: #9c9c9c;
+    letter-spacing: 0.1rem;
+    font-family: 'Fredoka One', cursive;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    border: none;
+    outline: #e5f6ff;
+    resize: none;
+    width: 35rem;
+    height: 15rem;
+    border-radius: 15px;
+    background: #e5f6ff;
+    box-shadow: inset 12px 12px 24px #b9c7cf,
+            inset -12px -12px 24px #ffffff;
+}
+h1{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Fredoka One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size:25px;
+}
+}
+
+@media only screen and (max-width: 900px) {
+  
+  textarea {
+    color: #9c9c9c;
+    letter-spacing: 0.1rem;
+    font-family: 'Fredoka One', cursive;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    border: none;
+    outline: #e5f6ff;
+    resize: none;
+    width: 27rem;
+    height: 15rem;
+    border-radius: 15px;
+    background: #e5f6ff;
+    box-shadow: inset 12px 12px 24px #b9c7cf,
+            inset -12px -12px 24px #ffffff;
+}
+h1{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Fredoka One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size:20px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+  
+  textarea {
+    color: #9c9c9c;
+    letter-spacing: 0.1rem;
+    font-family: 'Fredoka One', cursive;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    border: none;
+    outline: #e5f6ff;
+    resize: none;
+    width: 20rem;
+    height: 13rem;
+    border-radius: 15px;
+    background: #e5f6ff;
+    box-shadow: inset 12px 12px 24px #b9c7cf,
+            inset -12px -12px 24px #ffffff;
+}
+h1{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-family: 'Fredoka One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size:13px;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 3rem;
+    background: linear-gradient(145deg, #f5ffff, #cedde6);
+    box-shadow:  38px 38px 64px #b7c5cc,
+             -30px -30px 74px #ffffff;
+
+
+}
+}
